@@ -1,4 +1,4 @@
-body {
+div {
 
   border: 20px solid #000; /* this is short hand for setting
                             the border's width, its type, and color */
@@ -7,17 +7,24 @@ body {
   min-height: 25em; /* of the divs oblong*/
   border-radius: 50%; /* this makes the normally square div round */
 }
-#red div {
+#red {
   border-top-color: #f00;
 }
-#orange div {
-  border-bottom-color: #ffa500;
+#orange {
+  border-top-color: #ffa500;
 }
-#yellow div {
-  border-left-color: #ff0;
+#yellow  {
+  border-top-color: #ff0;
 }
-#green div {
-  border-right-color: #00bc3f;
+#green  {
+  border-top-color: #00bc3f;
 }
-
-
+#blue{
+  border-top-color:#06f ;
+}
+#indigo{
+  border-top-color: #8a2be2;
+}
+#violet{
+  border-top-color:#d300c9 ;
+}
